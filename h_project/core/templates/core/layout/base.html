@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  {% include "core/layout/head.html" %}
+  <body class="is-preload">
+    <!-- Sidebar -->
+    {% include "core/layout/sidebar.html" %}
+
+    <div id="wrapper">{% block content %}{% endblock content %}</div>
+
+    {% include "core/layout/footer.html" %}
+  </body>
+</html>
